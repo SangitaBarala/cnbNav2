@@ -1,15 +1,18 @@
 
 import './App.css';
 import Navbar from "./components/Navbar";
-import Grids from "./GridSection/Grids";
-import CnbTitle from "./components/CnbTitle";
-
+import Sidebar from "./components/Sidebar/Sidebar";
+import './App.css'
 function App() {
   return (
     <div>
       <Navbar/>
-        <CnbTitle/>
-        <Grids/>
+      {/*<CnbTitle/>*/}
+      {/*<Amazon/>*/}
+      {/*<Shopify/>*/}
+      {/*<Grids/>*/}
+        <Sidebar/>
+
     </div>
   );
 }

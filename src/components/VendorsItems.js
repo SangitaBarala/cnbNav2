@@ -1,26 +1,31 @@
 
 export const VendorItems = [
     {
+        id:1,
         title:'Amazon',
         path:'/amazon',
         cName:'dropdown-link'
     },
     {
+        id:2,
         title:'Shopify',
         path:'/shopify',
         cName:'dropdown-link'
     },
     {
+        id:3,
         title:'Walmart',
         path:'/walmart',
         cName:'dropdown-link'
     },
     {
+        id:4,
         title:'Staples',
         path:'/staples',
         cName:'dropdown-link'
     },
     {
+        id:5,
         title:'Others',
         path:'/others',
         cName:'dropdown-link'

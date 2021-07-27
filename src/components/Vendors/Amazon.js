@@ -1,22 +1,22 @@
 import React from "react";
 //import {Grid} from "@material-ui/core";
-import './Grids.css'
-//import CnbTitle from "../CnbTitle/CnbTitle";
-import {GridContent} from "./GridContent";
+import '../../GridSection/Grids.css'
+import CnbTitle from "../CnbTitle";
+import {AmazonVendorsList} from "./AmazonVendorList";
 
-const Grids = () => {
+const Amazon = () => {
     return(
         <div>
-            <section className="main-card--cointainer">
-                {GridContent.map((curElem) => {
-                    const { id, title, company,path, description } = curElem;
+            <section id="shopifyVendors" className="main-card--cointainer">
+                {AmazonVendorsList.map((item) => {
+                    const { id, title, subtitle,path, description } = item;
                     return (
                         <>
-                            <div className="card-container" key={id}>
+                            <div className="card-container">
                                 <div className="card ">
                                     <div className="card-body">
                                         <span className="card-number card-circle subtle">{id}</span>
-                                        <span className="card-author subtle"> {company}</span>
+                                        <span className="card-author subtle"> {subtitle}</span>
                                         <h2 className="card-title"> {title} </h2>
                                         <span className="card-description subtle">
                                              {description}
@@ -35,4 +35,4 @@ const Grids = () => {
         </div>
     )
 }
-export default Grids
+export default Amazon

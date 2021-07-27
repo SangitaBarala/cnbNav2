@@ -15,3 +15,18 @@ html {
   padding: 0;
 
 }
+.App {
+
+  height: 88vh;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+
+}
+.sidebar{
+  height: 100%;
+  width:250px;
+  background-color: #14312c;
+}

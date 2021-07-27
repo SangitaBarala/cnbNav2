@@ -3,6 +3,7 @@ import {BrowserRouter, Link} from "react-router-dom"
 import Dropdown from "./VendorDropdown";
 import './Navbar.css'
 import CnbDropdown from "./CnbDropdown";
+import Shopify from "./Vendors/Shopify";
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -70,7 +71,6 @@ const Navbar = () => {
                     </ul>
                 </nav>
             </BrowserRouter>
-
         </div>
     )
 }
