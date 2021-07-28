@@ -1,6 +1,7 @@
 import React from "react";
 import '../../App.css'
 import {sidebarData} from "./SidebarData";
+import Table from "../Tables/Table"
 
 const Sidebar = () => {
     return(
@@ -16,7 +17,9 @@ const Sidebar = () => {
                         )
                     })}
                 </ul>
-
+            </div>
+            <div id="table">
+                <Table/>
             </div>
         </div>
     )

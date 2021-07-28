@@ -16,14 +16,9 @@ html {
 
 }
 .App {
-
-  height: 88vh;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 89vh;
+  display: flex;
   background-color: lightblue;
-
 }
 .sidebar{
   height: 100%;

@@ -10,10 +10,5 @@ export const sidebarData = [
         title:'Title',
         icon:<MailIcon/>,
         link:'/title1'
-    },
-    {
-        title:'Title',
-        icon:<MailIcon/>,
-        link:'/title1'
     }
 ]
